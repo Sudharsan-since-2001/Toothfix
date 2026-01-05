@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import Blog from './components/pages/Blog';
+import BlogDetail from './components/pages/BlogDetail';
 import WhyChooseUs from './components/pages/WhyChooseUs';
 import Contact from './components/pages/Contact';
 import BookAppointment from './components/pages/BookAppointment';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogDetail />} />
             <Route path="/why-choose-us" element={<WhyChooseUs />} />
             <Route path="/services" element={<div className="pt-10"><Services /></div>} />
             <Route path="/contact" element={<Contact />} />
