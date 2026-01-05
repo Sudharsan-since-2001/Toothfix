@@ -1,0 +1,31 @@
+/* Global styles */
+:root {
+  --primary: #5D7576;
+  --secondary: #F0F4F4;
+  --dark: #2A3C42;
+  --muted: #8C9A9C;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5D7576;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A5E5F;
+}
